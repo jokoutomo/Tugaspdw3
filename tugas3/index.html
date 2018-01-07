@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link href="assets/css/metro.css" rel="stylesheet">
+        <link href="assets/css/metro-icons.css" rel="stylesheet">
+        <link href="assets/css/metro-responsive.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/onepage-scroll.css" />
+    <link rel='stylesheet' href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="app-bar dracula">
+        <span class="app-bar-divider"></span>
+        <ul class="app-bar-menu">
+            <li><a href="">Home</a></li>
+            <li>
+                <a href="" class="dropdown-toggle">Destination</a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="">Windows 10</a></li>
+                    <li><a href="">Spartan</a></li>
+                    <li><a href="">Outlook</a></li>
+                    <li><a href="">Office 2015</a></li>
+                    <li class="divider"></li>
+                    <li><a href="" class="dropdown-toggle">Other Products</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li><a href="">Internet Explorer 10</a></li>
+                            <li><a href="">Skype</a></li>
+                            <li><a href="">Surface</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Help</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <section class="page one"> <img src="img/bg1.jpeg" height="500px" width="1400" no-repeat>
+            <div class="page-container">
+                <!-- konten disini -->
+                <h2>John Travelta</h2>
+                <p>make the trip more enjoyable</p>
+            </div>
+        </section>
+        
+        <section class="page two"><img src="img/bg2.jpeg" height="500px" width="1400" no-repeat>
+            <div class="page-container">
+                <!-- konten disini -->
+                <h2>John Travelta</h2>
+                <p>make a romantic moment</p>
+            </div>
+        </section>
+        
+        <section class="page three"><img src="img/bg3.jpg" height="500px" width="1400" no-repeat>
+            <div class="page-container">
+                <!-- konten disini -->
+                <h2>John Travelta</h2>
+                <p>do not miss the best show</p>
+            </div>
+        </section>
+     </div>
+
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/jquery.dataTables.min.js"></script>
+        <script src="assets/js/metro.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.onepage-scroll.js"></script>
+        <script type="text/javascript">
+        $(".main").onepage_scroll({
+            sectionContainer: "section",
+            easing: "cubic-bezier(0.180, 0.900, 0.410, 1.210)"
+        });
+        </script>
+    </body>
+    </html>
